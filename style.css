@@ -229,6 +229,7 @@ header {
 .doing__items {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     /* list-style-type: none; */
     list-style: none;
     padding: 0;
@@ -290,33 +291,39 @@ header {
     /*height: 860px;*/
 }
 
-.button-arrow_left {
+.slider-arrows {
+    width: 1920px;
+    height: 309px;
     position: absolute;
-    background-image: url(img/arrow.png);
-    border-radius: 50%;
-    padding: 0;
-    border: none;
-    width: 61px;
-    height: 61px;
-    left: 341px;
-    top: 373px;
-    box-shadow: 0 0 10px 10px #F3F3F3;
-    cursor: pointer;
+    z-index: 10;
 }
 
-.button-arrow_right {
-    position: absolute;
-    background-image: url(img/arrow.png);
-    border-radius: 50%;
-    padding: 0;
-    border: none;
-    width: 61px;
-    height: 61px;
-    right: 350px;
-    top: 373px;
-    box-shadow: 0 0 10px 10px #F3F3F3;
-    cursor: pointer;
-    transform: rotate(180deg);
+.slider-arrows__button {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-image: url("../img/arrow.png");
+  position: absolute;
+  border: none;
+  top: calc(50% - 36px);
+}
+
+.slider-arrows__button:focus {
+  outline: none;
+}
+
+.slider-arrows__button:hover {
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.slider-arrows__button--left {
+  left: -30px;
+}
+
+.slider-arrows__button--right {
+  left: auto;
+  right: -30px;
+  transform: rotate(180deg);
 }
 
 .examples__img {
