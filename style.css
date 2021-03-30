@@ -317,17 +317,17 @@ header {
 }
 
 .slider-arrows__button--left {
-  left: -30px;
+  /*left: -30px;*/
 }
 
 .slider-arrows__button--right {
   left: auto;
-  right: -30px;
+  right: 30px;
   transform: rotate(180deg);
 }
 
-.examples__img {
-    align-content: last;
+.swiper-wrapper {
+    margin-bottom: 97px;
 }
 
 .examples__btn-order {
