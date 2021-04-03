@@ -64,7 +64,7 @@
 
     <section class="section__doing">
         <div class="doing__container">
-            <h2 class="doing__header">Что я делаю</h2>
+            <h2 class="section-heading doing__header">Что я делаю</h2>
             <ul class="doing__items">
                 <li class="doing__item doing_layout">
                     <object type="image/svg+xml" data="./img/svg/layout.svg">
@@ -99,7 +99,7 @@
 
     <section class="section__examples">
         <div class="container__examples">
-            <h2 class="examples__title">Примеры моих работ</h2>
+            <h2 class="section-heading examples__title">Примеры моих работ</h2>
 
             <div class="slider-arrows">
                 <button class="slider-arrows__button slider-arrows__button--left"></button>
@@ -109,34 +109,38 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="swiper-wrapper__figure">
                             <picture>
-                                <img src="img/portfolio/psuhologist-site-middle@1x.jpeg"
-                                     srcset="img/portfolio/psuhologist-site-middle@2x.webp 2x">
+                                <img src="img/portfolio/psuhologist-site-middle@1x.jpg"
+                                     srcset="img/portfolio/psuhologist-site-middle@2x.webp 2x"
+                                     class="swiper-wrapper__img">
                             </picture>
-                            <figcaption>
-
+                            <figcaption class="swiper-wrapper__descr-img">
+                                Сайт психолога Веры Антоновой
                             </figcaption>
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="swiper-wrapper__figure">
                             <picture>
-                                <img src="img/portfolio/kids-site-middle@1x.jpeg"
-                                     srcset="img/portfolio/kids-site-middle@2x.webp 2x">
+                                <img src="img/portfolio/kids-site-middle@1x.jpg"
+                                     srcset="img/portfolio/kids-site-middle@2x.webp 2x"
+                                     class="swiper-wrapper__img">
                             </picture>
-                            <figcaption>
-
+                            <figcaption class="swiper-wrapper__descr-img">
+                                Сайт магазина детской одежды
                             </figcaption>
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="swiper-wrapper__figure">
                             <picture>
-
+                                <img src="img/portfolio/fisher-site-middle@1x.jpg"
+                                     srcset="img/portfolio/fisher-site-middle@2x.webp 2x"
+                                     class="swiper-wrapper__img">
                             </picture>
-                            <figcaption>
-
+                            <figcaption class="swiper-wrapper__descr-img">
+                                Сайт магазина &laquo;Рыболов&raquo;
                             </figcaption>
                         </figure>
                     </div>
@@ -148,14 +152,17 @@
 
     <section class="section__cost">
         <div class="container__cost">
-            <div>
-                <h2>Адаптивная вёрстка под все устройства <br>и браузеры от 1000 рублей всего за 4 часа.*</h2>
-            </div>
-            <div>
-                * Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально,<br>в зависимости от сложности задач.
-            </div>
+            <h2 class="cost__description">
+                Адаптивная вёрстка под все устройства <br>и браузеры от 1000 рублей всего за 4 часа.*
+            </h2>
+            <p>
+                <small class="cost__note">
+                    * Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально,<br>в зависимости от сложности задач.
+                </small>
+            </p>
         </div>
     </section>
+
     <section class="section__contacts">
         <div class="container__contacts">
             <div class="container__contacts__services__portfolio__cost">
