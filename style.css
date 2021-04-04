@@ -256,7 +256,9 @@ header {
     /* -webkit-text-fill-color: transparent;  color: purple; */
 }
 
-
+.doing__item__service {
+    color: #8993ad;
+}
 
 .doing__type-work p {
     /* padding-top: 150px; */
@@ -285,7 +287,7 @@ header {
     cursor: pointer;
 }
 .section__examples {
-    padding: 91px 0 102px;
+    padding: 91px 0 98px;
     text-align: center;
     width: 100%;
     background-color: #FBFBFB;
@@ -380,24 +382,71 @@ margin-bottom: 32px;
 
 .section__cost {
     width: 100%;
-    height: 365px;
     background: linear-gradient(to right top, coral, purple);
+    padding: 74px 0 55px;
+    color: #FFFFFF;
 }
+
+
+.cost-tags__object {
+    position: absolute;
+}
+
+.cost-tags__object__codding {
+    margin-left: 87.2%;
+    margin-top: 0.4%;
+}
+
+.cost-tags__object__grid {
+    margin-left: 13%;
+    margin-top: 9.8%;
+}
+
+.cost-tags__object__container {
+    margin-left: 75%;
+    margin-top: 12.2%;
+}
+
+.cost-tags__object__parentheses {
+    margin-left: 93%;
+    margin-top: 10%;
+}
+
+.cost-tags__object__first-parentheses {
+    margin-left: 93%;
+    margin-top: 9.8%;
+}
+
+.cost-tags__object__last-parentheses {
+    margin-left: 6.8%;
+    margin-top: -0.5%;
+    transform: rotate(44deg);
+}
+
+
 
 .container__cost {
     max-width: 1920px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #FFFFFF;
 }
 
 .cost__description {
+    margin: 0 10%;
     font-size: 45px;
+    line-height: 1.35;
 }
 
 .cost__note {
     font-size: 20px;
+    margin: 27px 10%;
+    line-height: 1.5;
+    /*margin-right: 25%;*/
+    /*margin-left: 9.9%;*/
+    /*margin-top: 29px;*/
+    /*padding-left: 12px;*/
+    /*position: relative;*/
 }
 
 .section__contacts {
@@ -406,21 +455,27 @@ margin-bottom: 32px;
     height: 260px;
 }
 
-.container__contacts {
+.footer {
+    width: 100%;
+    padding-top: 65px;
+}
+
+.footer__contacts {
     max-width: 1920px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.container__contacts__services__portfolio__cost ul {
+.footer__contacts__services__portfolio__cost__list {
     list-style-type: none;
+    line-height: 1.15;
 }
 
-.container__contacts__services__portfolio__cost ul li {
+.footer__contacts__services__portfolio__cost ul li {
     margin-bottom: 15px;
     font-size: 18px;
     color: #8993AD;
@@ -432,7 +487,7 @@ margin-bottom: 32px;
     align-items: center;
 } */
 
-.container__contacts__telmail a {
+.footer__contacts__telmail a {
     /* display: block; */
     text-decoration: none;
     color: #000000;
@@ -461,12 +516,12 @@ margin-bottom: 32px;
     height: 30px;
 }
 
-.container__contacts__socset {
+.footer__contacts__socset {
      /*display: flex;*/
      /*justify-content: space-between;*/
 }
 
-.container__contacts__btn-call {
+.footer__contacts__btn-call {
     width: 250px;
     height: 45px;
     background-color: #FFFFFF;
@@ -475,20 +530,21 @@ margin-bottom: 32px;
     font-size: 16px;
 }
 
-.container__contacts__socset ul {
+.footer__contacts__socset__items {
     padding: 0;
     margin: 0;
     display: flex;
+    margin-top: 30px;
 }
 
-.container__contacts__socset ul li {
+.footer__contacts__socset__item {
     list-style: none;
     display: block;
     align-self: flex-end;
     /* align-items: flex-end; */
 }
 
-.container__contacts__socset ul li a {
+.footer__contacts__socset ul li a {
     text-decoration: none;
     background-image: url(img/sprite.png);
     /* background-repeat: no-repeat; */
@@ -524,11 +580,10 @@ margin-bottom: 32px;
     background-position: -170px -5px;
 }
 
-.footer {
-    width: 100%;
-}
 
-.container__footer {
+
+.footer__copyright {
+    margin-top: 75px;
     max-width: 1920px;
     display: flex;
     justify-content: center;
@@ -540,7 +595,7 @@ margin-bottom: 32px;
     font-size: 16px;
     color: #ffffff;
     font-weight: 400;
-    padding: 33px 0;
+    padding: 31px 0;
 }
 
 @media (max-width: 1024px) {

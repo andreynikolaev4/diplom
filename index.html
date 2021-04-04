@@ -70,25 +70,25 @@
                     <object type="image/svg+xml" data="./img/svg/layout.svg">
                         Your browser does not support SVG
                     </object>
-                    <p>Вёрстка лендинг–страниц <br>и сайтов любой сложности</p>
+                    <p class="doing__item__service">Вёрстка лендинг–страниц <br>и сайтов любой сложности</p>
                 </li>
                 <li class="doing__item doing_adaptive">
                     <object type="image/svg+xml" data="./img/svg/adaptive.svg">
                         Your browser does not support SVG
                     </object>
-                    <p>Адаптивная вёрстка под все <br>браузеры и устройства</p>
+                    <p class="doing__item__service">Адаптивная вёрстка под все <br>браузеры и устройства</p>
                 </li>
                 <li class="doing__item doing_frontend">
                     <object type="image/svg+xml" data="./img/svg/frontend.svg">
                         Your browser does not support SVG
                     </object>
-                    <p>Frontend–разработка <br>и программирование</p>
+                    <p class="doing__item__service">Frontend–разработка <br>и программирование</p>
                 </li>
                 <li class="doing__item doing_correction">
                     <object type="image/svg+xml" data="./img/svg/correction.svg">
                         Your browser does not support SVG
                     </object>
-                    <p>Исправление и доработка <br>существующей вёрстки</p>
+                    <p class="doing__item__service">Исправление и доработка <br>существующей вёрстки</p>
                 </li>
             </ul>
             <div>
@@ -151,47 +151,68 @@
     </section>
 
     <section class="section__cost">
+        <div class="cost-tags">
+            <object type="image/svg+xml" data="img/svg/white-codding.svg" class="cost-tags__object cost-tags__object__codding">
+                Your browser does not support SVG
+            </object>
+
+            <object type="image/svg+xml" data="img/svg/white-grid.svg" class="cost-tags__object cost-tags__object__grid">
+                Your browser does not support SVG
+            </object>
+
+            <object type="image/svg+xml" data="img/svg/white-container.svg" class="cost-tags__object cost-tags__object__container">
+                Your browser does not support SVG
+            </object>
+
+            <object type="image/svg+xml" data="img/svg/white-parentheses.svg" class="cost-tags__object cost-tags__object__first-parentheses">
+                Your browser does not support SVG
+            </object>
+
+            <object type="image/svg+xml" data="img/svg/white-parentheses.svg" class="cost-tags__object cost-tags__object__last-parentheses">
+                Your browser does not support SVG
+            </object>
+        </div>
+
         <div class="container__cost">
             <h2 class="cost__description">
                 Адаптивная вёрстка под все устройства <br>и браузеры от 1000 рублей всего за 4 часа.*
             </h2>
-            <p>
-                <small class="cost__note">
+            <p class="cost__note">
+                <small>
                     * Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально,<br>в зависимости от сложности задач.
                 </small>
             </p>
         </div>
     </section>
 
-    <section class="section__contacts">
-        <div class="container__contacts">
-            <div class="container__contacts__services__portfolio__cost">
-                <ul>
+    <footer class="footer">
+        <div class="footer__contacts">
+            <div class="footer__contacts__services__portfolio__cost">
+                <ul class="footer__contacts__services__portfolio__cost__list">
                     <li>Услуги</li>
                     <li>Портфолио</li>
                     <li>Стоимость</li>
                 </ul>
             </div>
-            <div class="container__contacts__telmail">
+            <div class="footer__contacts__telmail">
                 <div class="tel"><i class="fas fa-phone-alt"></i><a href="tel:+74999957755">+7 (499) 995-77-55</a></div>
                 <div class="mail"><i class="fas fa-envelope"></i><a href="mailto:dmitry@alekseev.com">dmitry@alekseev.com</a></div>
             </div>
-            <div class="container__contacts__socset">
-                <button class="container__contacts__btn-call">Заказать звонок</button>
-                <ul>
-                    <li><a href="vk.com" class="vk"></a></li>
-                    <li><a href="facebook.com" class="fa"></a></li>
-                    <li><a href="twitter.com" class="tw"></a></li>
-                    <li><a href="instagram.com" class="in"></a></li>
+            <div class="footer__contacts__socset">
+                <button class="footer__contacts__btn-call">Заказать звонок</button>
+                <ul class="footer__contacts__socset__items">
+                    <li class="footer__contacts__socset__item"><a href="vk.com" class="vk"></a></li>
+                    <li class="footer__contacts__socset__item"><a href="facebook.com" class="fa"></a></li>
+                    <li class="footer__contacts__socset__item"><a href="twitter.com" class="tw"></a></li>
+                    <li class="footer__contacts__socset__item"><a href="instagram.com" class="in"></a></li>
                 </ul>
             </div>
         </div>
-    </section>
-    <footer class="footer">
-        <div class="container__footer">
+        <div class="footer__copyright">
             <h2 class="footer__name">© Андрей Николаев, 2020</h2>
         </div>
     </footer>
+
     <script src="jquery-3.5.0.min.js"></script>
     <script src="script.js"></script>
 </body>
