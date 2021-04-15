@@ -66,9 +66,15 @@ header {
     padding-right: 30px;
 }
 
-.header__item a {
+.header__item__link {
     text-decoration: none;
     color: #1F1F24;
+}
+
+.header__item__link:hover {
+    color: #fc557c;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #fc557c;
 }
 
 .fa-bars {
@@ -99,6 +105,12 @@ header {
     border: 2px solid #F82370;
     background-color: transparent;
     cursor: pointer;
+}
+
+.header__btn-order-call:hover {
+    background-color: #f82370;
+    color: #ffffff;
+    transition: 0.5s;
 }
 
 .header__btn-order-call-max768 {
@@ -187,6 +199,13 @@ header {
     background-color: #FF4E2E;
     border: none;
     cursor: pointer;
+}
+
+.container__name__buttonlearnmore:hover {
+    background-color: #ffffff;
+    color: #ff4e2e;
+    transition: 0.5s;
+    box-shadow: 0 0 10px 5px #ff4e2e, inset 0 0 10px 0 #ff4e2e;
 }
 
 .container__photo {
@@ -286,6 +305,14 @@ header {
     border: none;
     cursor: pointer;
 }
+
+.doing__btn-cost:hover {
+    background-color: #ffffff;
+    color: #ff4e2e;
+    transition: 0.5s;
+    box-shadow: 0 0 10px 5px #ff4e2e, inset 0 0 10px 0 #ff4e2e;
+}
+
 .section__examples {
     padding: 91px 0 98px;
     text-align: center;
@@ -302,9 +329,9 @@ header {
 }
 
 .slider-arrows {
-    width: 1920px;
-    height: 309px;
-    position: absolute;
+    max-width: 1920px;
+    /*height: 309px;*/
+    position: relative;
     z-index: 10;
 }
 
@@ -332,7 +359,7 @@ header {
 
 .slider-arrows__button--right {
   left: auto;
-  right: 370px;
+  right: 350px;
   transform: rotate(180deg);
 }
 
@@ -378,6 +405,13 @@ margin-bottom: 32px;
     background-color: #FF4E2E;
     border: none;
     cursor: pointer;
+}
+
+.examples__btn-order:hover {
+    background-color: #ffffff;
+    color: #ff4e2e;
+    transition: 0.5s;
+    box-shadow: 0 0 10px 5px #ff4e2e, inset 0 0 10px 0 #ff4e2e;
 }
 
 .section__cost {
@@ -475,10 +509,21 @@ margin-bottom: 32px;
     line-height: 1.15;
 }
 
-.footer__contacts__services__portfolio__cost ul li {
+.footer__contacts__item {
     margin-bottom: 15px;
     font-size: 18px;
+
+}
+
+.footer__contacts__link {
+    text-decoration: none;
     color: #8993AD;
+}
+
+.footer__contacts__link:hover {
+    color: #fc557c;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #fc557c;
 }
 
 /* .container__contacts__telmail {
@@ -528,6 +573,12 @@ margin-bottom: 32px;
     border-color: #FF5E79;
     color: #FF6376;
     font-size: 16px;
+}
+
+.footer__contacts__btn-call:hover {
+    background-color: #f82370;
+    color: #ffffff;
+    transition: 0.5s;
 }
 
 .footer__contacts__socset__items {
